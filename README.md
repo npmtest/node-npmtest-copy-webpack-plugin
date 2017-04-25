@@ -1,6 +1,6 @@
 # npmtest-copy-webpack-plugin
 
-#### test coverage for  [copy-webpack-plugin (v4.0.1)](https://github.com/kevlened/copy-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-copy-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-copy-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-copy-webpack-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-copy-webpack-plugin)
+#### basic test coverage for  [copy-webpack-plugin (v4.0.1)](https://github.com/kevlened/copy-webpack-plugin)  [![npm package](https://img.shields.io/npm/v/npmtest-copy-webpack-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-copy-webpack-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-copy-webpack-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-copy-webpack-plugin)
 
 #### Copy files and directories in webpack
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-copy-webpack-plugin/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-copy-webpack-plugin/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-copy-webpack-plugin/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-copy-webpack-plugin/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
         "test": "mocha compiled_tests/",
         "test:nolint": "npm run build && npm run build:tests && mocha compiled_tests/"
     },
-    "version": "4.0.1"
+    "version": "4.0.1",
+    "bin": {}
 }
 ```
 
